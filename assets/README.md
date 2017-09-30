@@ -1,1 +1,2 @@
-# SVIFT.vis.{{visname}}
+# {{title}}
+## SVIFT.vis.{{visname}}

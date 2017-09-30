@@ -15,13 +15,13 @@ Make sure the name is not already taken
 
 ```
 cd /to-boilerplate-folder/
-node index.js PATH_TO_NEW_EMPTY_REPO NAMEOFVIS GIT_URL "YOUR NAME"
+node index.js PATH_TO_NEW_EMPTY_REPO NAMEOFVIS GIT_URL "YOUR NAME" "NAME OF VIS"
 ```
 
 Example:
 
 ```
-node index.js /Users/max/dev/vis-barchart-module barchart git@bitbucket.org/svift/vis-barchart-module.git "Max Mustermann"
+node index.js /Users/max/dev/vis-barchart-module barchart git@bitbucket.org/svift/vis-barchart-module.git "Max Mustermann" "Barchart"
 ```
 
 3. Install dependencies

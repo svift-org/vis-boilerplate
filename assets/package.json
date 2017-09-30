@@ -2,6 +2,7 @@
   "name": "svift-vis-{{visname}}",
   "version": "1.0.0",
   "description": "{{visname}} module",
+  "title":{{title}},
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
