@@ -9,7 +9,7 @@ var path = process.argv[2],
   visname = process.argv[3],
   giturl = process.argv[4],
   author = process.argv[5] || 'AUTHOR',
-  author = process.argv[6] || 'VIS TITLE'
+  title = process.argv[6] || 'VIS TITLE'
 
 if (!fs.existsSync(path)) {
   console.log('It looks like the provided repo path is incorrect')
