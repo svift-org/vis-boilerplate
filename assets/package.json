@@ -4,7 +4,7 @@
   "definition": {
     "name": "{{visname}}",
     "description": "{{visname}} module",
-    "title":{{title}},
+    "title":"{{title}}",
     "input":"number"
   },
   "main": "index.js",
