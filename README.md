@@ -13,6 +13,8 @@ Make sure the name is not already taken
 
 2. Use the boilerplate to create the basic structure in the new repo, therefore, use script as follows:
 
+(GIT_URL only the name of the repo on github)
+
 ```
 cd /to-boilerplate-folder/
 node index.js PATH_TO_NEW_EMPTY_REPO NAMEOFVIS GIT_URL "YOUR NAME" "NAME OF VIS"
@@ -21,7 +23,7 @@ node index.js PATH_TO_NEW_EMPTY_REPO NAMEOFVIS GIT_URL "YOUR NAME" "NAME OF VIS"
 Example:
 
 ```
-node index.js /Users/max/dev/vis-barchart-module barchart git@bitbucket.org/svift/vis-barchart-module.git "Max Mustermann" "Barchart"
+node index.js /Users/max/dev/vis-barchart-module barchart vis-barchart-module.git "Max Mustermann" "Barchart"
 ```
 
 3. Install dependencies
@@ -111,7 +113,7 @@ If the visualisation works fine, push it to the repo and add it to the svift-fro
 ...
 "dependencies":{
   ...
-  "svift-vis-NAMEOFVIS": "git+ssh://GIT_URL"
+  "svift-vis-NAMEOFVIS": "git+https://git@github.com/svift-org/GIT_URL"
 }
 ...
 ```
